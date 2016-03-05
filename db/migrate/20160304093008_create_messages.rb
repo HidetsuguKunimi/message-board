@@ -6,8 +6,6 @@ class CreateMessages < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-    
-    change_table :messages do |t|
-      t.string :age  
-    end
+  end
 end
+

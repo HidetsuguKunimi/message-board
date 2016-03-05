@@ -6,8 +6,8 @@
   <div class="panel-body">
   
     <% @messages.each do |message| %>
-      <span class="label label-info"><%= message.name %></span>
-      <%= message.age %>          
+      <span class="label label-info"><%= message.name %> （<%= message.age %>歳）</span>
+                
       <%= message.body %>
       
       (
