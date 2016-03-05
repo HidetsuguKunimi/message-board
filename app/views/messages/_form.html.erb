@@ -26,11 +26,15 @@
 
 名前:
 
-<%= f.text_field :name ,class:"form-control" ,style:"width:200px;" %>
+<%= f.text_area :name ,class:"form-control" ,style:"width:200px;" %>
 
 内容:
 
-<%= f.text_area :body ,class:"form-control" ,style:"width:500px;" ,rows:"5"%>
+<%= f.text_area :body ,class:"form-control" ,style:"width:500px;" ,rows:"5" %>
+
+年齢:
+
+<%= f.text_area :age ,class:"form-control" ,style:"width:200px;" %>
 
 <%= f.submit class:"btn btn-sm btn-primary" %>
 
